@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem 2rem;
+    background: url(poto/mytik.jpg); 
+   background-position: center;
+    background-repeat: repeat;
+    color: white;
+
+}
+header {
+  position: fixed;
+  background-color: rgba(5, 36, 177, 0.446);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+
+header nav a {
+  position: relative;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+header nav a::before{
+  content:"" ;
+  top: 100%;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 1s;
+}
+ header nav a:hover::before{
+width: 100%;
+ }
+  
+ a{
+        color: rgb(4, 0, 255);
+       }
+audio,video,p{
+    padding-left: 1rem;
+
+}
+
+        </style>
+</head>
+<body>
+    <br><br><br><br>
+    <header>
+      <a href="#"> <h2>Yan Project</h2></a>
+          <nav>
+            
+              <a href="home.html">Home</a>
+              <a href="#">Gallery</a>
+              <a href="artikel.html">Artikel</a>
+            
+          </nav>
+        </header>
+
+        <h2 style="text-align: center;">Gallery Foto</h2>
+    <br><br>
+    <img alt="anime1" src="poto/a1.jpeg" width="190" height="400" title="anime1">
+    <img alt="anime2" src="poto/a2.jpeg" width="190" height="400" title="anime2">
+    <img alt="anime3" src="poto/a3.jpeg" width="190" height="400" title="anime3">
+    <img alt="kamen rider" src="poto/km.jpeg" width="190" height="400" title="kamen rider">
+    <img alt="manga" src="poto/mang.jpeg" width="190" height="400" title="manga">
+    <img alt="aku" src="poto/WhatsApp.jpeg" width="190" height="400" title="aku">   
+
+<br>
+<h2 style="text-align: center;">Gallery Musik</h2><br><br>
+
+<p>Judul: indila - love story</p>
+<audio src="msc/m1.mpeg" controls></audio>
+<p>Judul: on my way</p>
+<audio src="msc/m2.mpeg" controls></audio>
+<p>Judul: lily</p>
+<audio src="msc/m3.mpeg" controls></audio>
+<p>Judul: yowamushi pedal</p>
+<audio src="msc/m4.mpeg" controls></audio>
+<br><br>
+<h2 style="text-align: center;">Gallery Video</h2> <br><br>
+<a href="https://youtu.be/EYbQLe1I_0M?si=nqBjjYq8F7UyxDih"><img src="poto/hhh.png" alt="vidio yutub" width="380"></a>
+<a href="https://youtu.be/5qvhQZnlOTM?si=V81415DFzbXvha8g"><img src="poto/pr.png" alt="vidio yutub" width="380"></a>
+<a href="https://youtu.be/-Uwv0iPwo0g?si=OrBqny9v0XnO7GpT"><img src="poto/br.png" alt="vidio yutub" width="380"></a>
+<a href="https://youtu.be/jsY-Ri7NTvE?si=sFGii7XOsQ9sT9A9"><img src="poto/g2.png" alt="vidio yutub" width="380"></a>
+<a href="https://youtu.be/rxSkeRHSXO8?si=NHkg4j-naUZ8JSZy"><img src="poto/dr.png" alt="vidio yutub" width="380"></a>
+<a href="https://youtu.be/bnZVkItPlD4?si=QKMaK63g9jtgl4Q1"><img src="poto/g1.png" alt="vidio yutub" width="380"></a>
+<br><br><br><br>
+</body>
+</html>
